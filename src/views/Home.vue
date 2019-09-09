@@ -1,19 +1,15 @@
 <template>
   <div>
-    <AppFormInput v-model="value" />
-    {{ value }}
+    <AppCountdown :start="5" />
   </div>
 </template>
 
 <script>
-import AppFormInput from '@/components/elements/form/AppFormInput'
+import AppCountdown from '@/components/elements/countdown/AppCountdown'
 
 export default {
   components: {
-    AppFormInput
-  },
-  data: () => ({
-    value: 'abc'
-  })
+    AppCountdown
+  }
 }
 </script>
