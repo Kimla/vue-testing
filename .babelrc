@@ -1,0 +1,14 @@
+{
+  "env": {
+    "development": {
+      "presets": ["@vue/app"]
+    },
+    "production": {
+      "presets": ["@vue/app"]
+    },
+    "test": {
+      "presets": [["env", { "targets": { "node": "current" } }]],
+      "plugins": ["@babel/plugin-proposal-object-rest-spread"]
+    }
+  }
+}
