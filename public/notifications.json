@@ -9,6 +9,11 @@
       "id": 2,
       "body": "Second notification",
       "read": false
+    },
+    {
+      "id": 3,
+      "body": "Third notification",
+      "read": false
     }
   ]
 }

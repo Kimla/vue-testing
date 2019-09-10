@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Dashboard from './views/Dashboard.vue'
 import SignIn from './views/auth/SignIn.vue'
+import Notifications from './views/Notifications.vue'
 
 Vue.use(Router)
 
@@ -19,6 +20,11 @@ export default new Router({
       path: '/dashboard',
       name: 'dashboard',
       component: Dashboard
+    },
+    {
+      path: '/notifications',
+      name: 'notifications',
+      component: Notifications
     },
     {
       path: '/auth/signin',
